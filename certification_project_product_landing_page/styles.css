@@ -1,0 +1,156 @@
+:root {
+  --white: #ffffff;
+  --text-color: #b38600;
+  --black: #000000;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white)
+}
+
+#header-img {
+  width: 60px;
+  object-fit: contain;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: var(--white);
+  color: var(--black);
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  margin-right: 20px;
+  padding: 0 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Sans-Serif;
+  margin-left: 5px;
+}
+
+section::before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+section {
+  margin: 40px 20px;
+}
+
+h1 {
+  color: var(--text-color); 
+  font-size: 80px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: Sans-Serif;
+  font-weight: 550;
+}
+
+#email 
+{
+  margin-top: 15px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+h2 {
+  font-family: Sans-Serif;
+}
+
+h3 {
+  color: var(--text-color); 
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Sans-Serif;
+  font-weight: 550;
+}
+
+p {
+  font-style: Sans-sserif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+hr {
+  margin: 1.5rem 0;
+  border: 0.5px solid var(--text-color);
+  align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.image {
+  margin-right: 30px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 3500px;
+}
+
+.Personal_trainers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Sans-Serif;
+  font-weight: 550;
+}

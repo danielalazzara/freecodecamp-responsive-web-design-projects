@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 18;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+main {
+  background-color: black;
+  color: white;
+  text-align: auto;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
+
+figcaption {
+  text-align: center;
+}
